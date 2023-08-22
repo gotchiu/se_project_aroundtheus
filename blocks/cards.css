@@ -1,0 +1,35 @@
+.card {
+  /* fonts */
+  height: 361px;
+  width: 282px;
+}
+
+.card__list {
+  display: grid;
+  list-style-type: none;
+  grid-gap: 17px;
+}
+
+.card__image {
+  height: 282px;
+  width: 282px;
+  border-radius: 10px 10px 0px 0px;
+  background: lightgray 50% cover no-repeat;
+}
+
+.card__description {
+  display: flex;
+  background-color: #fff;
+  color: #000;
+  width: 193px;
+  height: 29px;
+  padding: 25px 69px 25px 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card__like-button {
+  background-color: transparent;
+  border: none;
+  margin-right: 20px;
+}

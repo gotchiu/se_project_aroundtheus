@@ -1,5 +1,14 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  max-width: 880px;
+}
+
 .header__logo {
-  background-color: #000;
-  height: 100px;
-  width: 100px;
+  width: 173px;
+  height: 33px;
+}
+
+.header__border_bottom {
+  margin: 41px 0 0;
 }

@@ -1,5 +1,9 @@
 .page {
   background-color: #000;
-  height: 100px;
-  width: 100px;
+  color: #fff;
+}
+
+.page__content {
+  margin: 45px 200px 60px;
+  display: grid;
 }
