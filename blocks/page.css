@@ -7,3 +7,10 @@
   margin: 45px 200px 60px;
   display: grid;
 }
+
+.page__section {
+  max-width: 880px;
+  width: 100%;
+  position: relative;
+  margin: 0 auto;
+}
