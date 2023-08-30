@@ -20,7 +20,7 @@ Images were exported from Figma and optimized on tinypng.com so that the page lo
 
 **URL**
 
-[Check out my project on Github Pages!](https://gotchiu.github.io/se_project_aroundtheus/)
+- [Check out my project on Github Pages!](https://gotchiu.github.io/se_project_aroundtheus/)
 
 ---
 
