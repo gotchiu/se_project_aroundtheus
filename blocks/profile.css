@@ -3,6 +3,8 @@
   margin: 0 0 47px 0;
   max-width: 880px;
   width: 100%;
+  border-top: #545454 1px solid;
+  padding: 36.25px 0 0 0;
 }
 
 .profile__avatar {
@@ -36,7 +38,7 @@
 
 .profile__title {
   color: #fff;
-  font-family: Inter;
+  font-family: "Inter", Arial, sans-serif;
   font-size: 42px;
   font-weight: 500;
   line-height: 48px;
@@ -49,7 +51,7 @@
 
 .profile__description {
   color: #fff;
-  font-family: Inter;
+  font-family: "Inter", Arial, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -63,7 +65,7 @@
 }
 
 .profile__edit-button {
-  background-image: url(../images/edit_pencil_image.png);
+  background-image: url(../images/edit_button_inactive.svg);
   background-position: center;
   background-repeat: no-repeat;
   background-color: transparent;
@@ -76,13 +78,13 @@
 }
 
 .profile__edit-button:hover {
-  background-image: url(../images/edit_button_active.png);
+  background-image: url(../images/edit_button_active.svg);
   border: #545454;
   cursor: pointer;
 }
 
 .profile__add-button {
-  background-image: url(../images/plus_sign_image.png);
+  background-image: url(../images/add_button_inactive.svg);
   background-position: center;
   background-repeat: no-repeat;
   background-color: transparent;
@@ -97,11 +99,15 @@
 
 .profile__add-button:hover {
   cursor: pointer;
-  background-image: url(../images/add_button_active.png);
+  background-image: url(../images/add_button_active.svg);
   color: #545454;
-  align-self: center;
-  border-radius: 2px;
   border: #545454 solid;
+}
+
+@media screen and (min-width: 480px) and (max-width: 620px) {
+  .profile {
+    margin: 41px 0 0;
+  }
 }
 
 @media screen and (max-width: 620px) {
@@ -110,7 +116,7 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    margin: 0;
+    padding: 38.25px 0px 0px;
   }
 
   .profile__avatar {
@@ -151,11 +157,12 @@
   .profile__add-button {
     margin: 36px 0;
     width: 100%;
+    background-image: url(../images/add_button_inactive_small.svg);
   }
 }
 
 @media screen and (min-width: 620px) and (max-width: 770px) {
-  profile__title {
+  .profile__title {
     font-size: 30px;
   }
 
@@ -164,7 +171,6 @@
   }
 
   .profile__add-button {
-    height: 50px;
     width: 50px;
   }
 }
