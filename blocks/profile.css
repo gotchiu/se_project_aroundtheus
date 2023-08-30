@@ -38,10 +38,8 @@
   color: #fff;
   font-family: Inter;
   font-size: 42px;
-  font-style: normal;
   font-weight: 500;
-  line-height: 48px; /* 114.286% */
-  align-items: center;
+  line-height: 48px;
   grid-area: title;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -55,7 +53,7 @@
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
-  line-height: normal;
+  line-height: 21.78px;
   grid-area: description;
   margin: 0;
   max-width: 415px;
@@ -95,8 +93,6 @@
   height: 50px;
   width: 150px;
   margin: 0 0 0 auto;
-  padding: 194px 200px auto auto;
-  justify-self: flex-end;
 }
 
 .profile__add-button:hover {
@@ -109,22 +105,6 @@
 }
 
 @media screen and (max-width: 620px) {
-  .page {
-    overflow-x: hidden;
-  }
-
-  .page__content {
-    max-width: calc(100% - 40px);
-    margin: 0;
-    display: flex;
-  }
-
-  .content {
-    margin: 0 19px;
-    justify-content: center;
-    width: 100%;
-  }
-
   .profile {
     flex-direction: column;
     flex-wrap: wrap;
@@ -133,36 +113,12 @@
     margin: 0;
   }
 
-  .header {
+  .profile__avatar {
     margin: 0;
   }
 
-  .header__logo {
-    margin: 50px auto 0 50px;
-    padding: 0;
-  }
-
-  .profile__add-button {
-    margin: 36px 0;
-    width: 100%;
-  }
-
-  .profile__title {
-    font-size: 22px;
-    line-height: 1.2;
-  }
-
-  .profile__edit-button {
-    height: 18px;
-    width: 18px;
-  }
-
-  .profile__description {
-    font-size: 14px;
-    align-self: center;
-    width: 100%;
-    display: flex;
-    justify-content: center;
+  .profile__image {
+    margin: 0;
   }
 
   .profile__info {
@@ -174,33 +130,27 @@
     align-items: center;
   }
 
-  .profile__avatar {
-    margin: 0;
+  .profile__title {
+    font-size: 22px;
+    line-height: 1.2;
   }
 
-  .profile__image {
-    margin: 0;
+  .profile__description {
+    font-size: 14px;
+    align-self: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
   }
 
-  .footer__text {
-    margin: 0;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .header {
-    margin: 0;
+  .profile__edit-button {
+    height: 18px;
+    width: 18px;
   }
 
-  .header__border_bottom {
-    margin: 32px 0 38.25px;
-  }
-
-  .header__logo {
-    width: 126px;
-    height: 24px;
-    margin: 28px auto 0 27px;
-    padding: 0;
+  .profile__add-button {
+    margin: 36px 0;
+    width: 100%;
   }
 }
 

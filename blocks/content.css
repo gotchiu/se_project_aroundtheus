@@ -5,3 +5,11 @@
   flex-direction: column;
   max-width: 880px;
 }
+
+@media screen and (max-width: 620px) {
+  .content {
+    margin: 0 19px;
+    justify-content: center;
+    width: 100%;
+  }
+}

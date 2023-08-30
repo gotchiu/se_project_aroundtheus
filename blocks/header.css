@@ -11,3 +11,31 @@
 .header__border_bottom {
   margin: 41px 0 36.25px;
 }
+
+@media screen and (max-width: 620px) {
+  .header {
+    margin: 0;
+  }
+
+  .header__logo {
+    margin: 50px auto 0 50px;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .header {
+    margin: 0;
+  }
+
+  .header__border_bottom {
+    margin: 32px 0 38.25px;
+  }
+
+  .header__logo {
+    width: 126px;
+    height: 24px;
+    margin: 28px auto 0 27px;
+    padding: 0;
+  }
+}
