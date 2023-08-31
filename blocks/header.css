@@ -12,10 +12,12 @@
 @media screen and (max-width: 620px) {
   .header {
     margin: 0;
+    border-bottom: rgba(84, 84, 84, 0.7) 1px solid;
+    max-width: 100%;
   }
 
   .header__logo {
-    margin: 45px auto 0 40px;
+    margin: 45px auto 41px 40px;
     padding: 0;
   }
 }
@@ -28,6 +30,6 @@
   .header__logo {
     width: 126px;
     height: 24px;
-    margin: 28px auto 32px 7px;
+    margin: 28px auto 32px 27px;
   }
 }

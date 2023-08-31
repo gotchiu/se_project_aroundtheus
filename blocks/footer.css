@@ -5,14 +5,18 @@
 .footer__text {
   color: #545454;
   font-family: "Inter", Arial, sans-serif;
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 400;
-  line-height: 22px;
+  line-height: normal;
   margin: 0;
 }
 
 @media screen and (max-width: 620px) {
   .footer {
-    margin: 48px auto 36px 0;
+    margin: 0;
+  }
+
+  .footer__text {
+    margin: 48px auto 36px 19px;
   }
 }

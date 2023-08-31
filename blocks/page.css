@@ -7,7 +7,8 @@
 }
 
 .page__content {
-  margin: 0 auto;
+  padding: 0 20px;
+  margin: auto;
   display: flex;
   flex-direction: column;
   max-width: 880px;
@@ -26,8 +27,14 @@
 }
 
 @media screen and (max-width: 620px) {
-  .page__content {
-    max-width: calc(100% - 40px);
+  .page {
+    margin: 0;
+    padding: 0;
     width: 100%;
+    max-width: 100%;
+  }
+  .page__content {
+    padding: 0;
+    max-width: 100%;
   }
 }
