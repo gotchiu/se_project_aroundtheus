@@ -170,6 +170,7 @@
     max-width: 280px;
     width: 100%;
     line-height: 16.94px;
+    text-align: center;
   }
 
   .profile__edit-button {
