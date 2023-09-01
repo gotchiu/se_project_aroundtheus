@@ -164,8 +164,6 @@
   .profile__description {
     font-size: 14px;
     align-self: center;
-    display: flex;
-    justify-content: center;
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
