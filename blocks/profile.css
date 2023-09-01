@@ -162,8 +162,11 @@
     font-size: 14px;
     align-self: center;
     width: 100%;
-    display: flex;
     justify-content: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 280px;
   }
 
   .profile__edit-button {
