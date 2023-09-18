@@ -50,7 +50,6 @@
 }
 
 .modal__heading {
-  font-family: Inter;
   font-size: 24px;
   font-weight: 900;
   color: #000;
@@ -64,7 +63,6 @@
 
 .modal__title {
   margin: 0 0 calc(30px - 6px);
-  font-family: Inter;
   font-size: 14px;
   font-weight: 400;
   line-height: 17px;
@@ -79,7 +77,6 @@
 }
 
 .modal__description {
-  font-family: Inter;
   font-size: 14px;
   font-weight: 400;
   line-height: 17px;
@@ -100,7 +97,6 @@
   border-color: transparent;
   background-color: #000;
   color: #fff;
-  font-family: Inter;
   font-size: 18px;
   font-weight: 400;
   line-height: 22px;
@@ -130,7 +126,6 @@
   }
 
   .modal__heading {
-    font-family: Inter;
     font-size: 18px;
     margin: 0 0 calc(75px - 6px);
   }

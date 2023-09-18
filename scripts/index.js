@@ -25,6 +25,8 @@ const initialCards = [
   },
 ];
 
+/* ELEMENTS */
+
 const profileEditButton = document.querySelector("#profile-edit-button");
 const profileEditModal = document.querySelector("#profile-edit-modal");
 const profileEditCloseButton = document.querySelector(
@@ -38,9 +40,13 @@ const profileDescriptionInput = document.querySelector(
 );
 const profileEditForm = profileEditModal.querySelector(".modal__form");
 
+/* FUNCTIONS */
+
 function closePopup() {
   profileEditModal.classList.remove("modal_opened");
 }
+
+/* EVENT LISTENERS */
 
 profileEditButton.addEventListener("click", () => {
   profileTitleInput.value = profileTitle.textContent;
