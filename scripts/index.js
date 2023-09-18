@@ -30,11 +30,31 @@ const profileEditModal = document.querySelector("#profile-edit-modal");
 const profileEditCloseButton = document.querySelector(
   "#profile-edit-close-button"
 );
+const profileTitle = document.querySelector(".js-profile-title");
+const profileDescription = document.querySelector(".js-profile-description");
+const profileTitleInput = document.querySelector("#profile-title-input");
+const profileDescriptionInput = document.querySelector(
+  "#profile-description-input"
+);
+const profileEditForm = profileEditModal.querySelector(".modal__form");
+
+function closePopup() {
+  profileEditModal.classList.remove("modal_opened");
+}
 
 profileEditButton.addEventListener("click", () => {
+  profileTitleInput.value = profileTitle.textContent;
+  profileDescriptionInput.value = profileDescription.textContent;
   profileEditModal.classList.add("modal_opened");
 });
 
 profileEditCloseButton.addEventListener("click", () => {
-  profileEditModal.classList.remove("modal_opened");
+  closePopup();
+});
+
+profileEditForm.addEventListener("submit", (event) => {
+  event.preventDefault();
+  profileTitle.textContent = profileTitleInput.value;
+  profileDescription.textContent = profileDescriptionInput.value;
+  closePopup();
 });

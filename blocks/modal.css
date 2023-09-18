@@ -41,6 +41,7 @@
 
 .modal__close:hover {
   opacity: 0.6;
+  cursor: pointer;
 }
 
 .modal__form {
@@ -105,10 +106,12 @@
   line-height: 22px;
   text-align: center;
   width: 100%;
+  cursor: pointer;
 }
 
 .modal__button:hover {
   opacity: 80%;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 620px) {
