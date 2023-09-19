@@ -29,14 +29,14 @@
             />
           </div>
           <div class="profile__info">
-            <h1 class="profile__title js-profile-title">Jacques Cousteau</h1>
+            <h1 class="profile__title">Jacques Cousteau</h1>
             <button
               class="profile__edit-button"
               id="profile-edit-button"
               type="button"
               aria-label="edit button"
             ></button>
-            <p class="profile__description js-profile-description">Explorer</p>
+            <p class="profile__description">Explorer</p>
           </div>
           <button
             type="button"
@@ -54,26 +54,33 @@
     </div>
     <div class="modal" id="profile-edit-modal">
       <div class="modal__container">
-        <button class="modal__close" id="profile-edit-close-button"></button>
-        <form class="modal__form">
-          <p class="modal__heading">Edit profile</p>
-          <div class="modal__fieldset">
+        <button
+          class="modal__close"
+          aria-label="close button"
+          type="button"
+          id="profile-edit-close-button"
+        ></button>
+        <form class="modal__form" name="modalForm">
+          <h3 class="modal__heading">Edit profile</h3>
+          <fieldset class="modal__fieldset">
             <input
-              class="modal__title"
+              class="modal__title modal__input"
               id="profile-title-input"
               type="text"
               name="title"
               placeholder="Name"
             />
             <input
-              class="modal__description"
+              class="modal__input"
               id="profile-description-input"
               type="text"
               name="description"
               placeholder="Description"
             />
-          </div>
-          <button class="modal__button" type="submit">Save</button>
+          </fieldset>
+          <button class="modal__button" type="submit" aria-label="save button">
+            Save
+          </button>
         </form>
       </div>
     </div>

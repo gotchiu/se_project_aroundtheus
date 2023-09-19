@@ -161,9 +161,6 @@
   .profile__description {
     font-size: 14px;
     align-self: center;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    overflow: hidden;
     max-width: 280px;
     width: 100%;
     line-height: 16.94px;
